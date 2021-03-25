@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: eficode
+  description: new serivce
+  annotations: 
+    github.com/project-slug: hoeghh/eficode
+    backstage.io/source-ref: "https://github.com/hoeghh/eficode"
+    backstage.io/techdocs-ref: url:https://github.com/hoeghh/eficode
+    backstage.io/github-actions-id: https://github.com/hoeghh/eficode
+spec:
+  type: service
+  lifecycle: experimental
+  owner: hoeghh
